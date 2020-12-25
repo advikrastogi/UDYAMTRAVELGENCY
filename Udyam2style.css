@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.pixelstalk.net/wp-content/uploads/2015/05/Blue-Sea-Travel-Wallpapers-HD.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+ul li{
+    display: inline-block;
+    padding-right: 1px;
+    align-items: flex-end;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    transition:0.1s ease;
+    font-size: 22px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 190px;
+    height: auto ;
+    margin-top: 20px;
+}
+.main{
+    max-width: 1289px;
+   
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: antiquewhite;
+    font-size: 60px;
+}
+body{
+    color: antiquewhite;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://www.pixelstalk.net/wp-content/uploads/2015/05/Blue-Sea-Travel-Wallpapers-HD.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 60px;
+
+}
+ul li{
+    display: inline-block;
+    padding-right: 1px;
+    align-items: flex-end;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    transition:0.1s ease;
+    font-size: 22px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 120px;
+  
+    margin-top: 20px;
+}
+.main{
+    max-width: 1289px;
+   
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: antiquewhite;
+    font-size: 60px;
+    font-family:'Kaushan Script';
+}
+.title h3{
+    color: antiquewhite;
+    font-size: 20px;
+    font-family:  'Kaushan Script';
+}
+.name{
+ padding-top: 8px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 5px;
+ background-color: transparent;
+ border: 3px double white;
+ color: white;
+ font-size: 17px;
+ margin-top: 350px;
+ margin-left: 350px;
+ text-align: center;
+ width: 390px;
+}
+.name::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.email{
+    background-color: transparent;
+    border: 3px double white;
+    color: white;
+    font-size: 17px;
+    width: 390px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+.email::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.password {
+    background-color: transparent;
+    border: 3px double white;
+    color: white;
+    font-size: 17px;
+    width: 390px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+.password::placeholder{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.submit{
+    background-color: transparent;
+    border: 3px double transparent;
+    color: white;
+    font-size: 20px;
+    width: 390px;
+    padding-top: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    margin-left: 470px;
+    margin-top: 20px;
+    border-radius: 10%;
+}
+.submit:hover{
+   border-color: white;
+}
+#achievement{
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+}
+.one{
+    background-color: cornsilk;
+}
+.raft{
+    width: 450px;
+    length: 300px;
+    padding-left: 10px;
+}
+.raft:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.forest{
+    width: 450px;
+    padding-left: 10px;
+}
+.forest:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.mountain{
+    width: 400px;
+    padding-left: 10px;
+    height: 253px;
+}
+.mountain:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.taj-mahal{
+    width: 450px;
+    padding-left: 10px;
+}
+.taj-mahal:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.eiffel-tower{
+    width: 450px;
+    padding-left: 10px;
+    height: 306px;
+}
+.eiffel-tower:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.statue{
+    width: 400px;
+    padding-left: 10px;
+    height: 306px;
+}
+.statue:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.bold{
+ font-weight: 120px;
+ font-size: 60px;
+ font-family: "Arial Black";
+color: black;
+}
+.place{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Arial Black";
+    color: black;
+}
+.from{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Arial Black";
+    color: black;
+}
+.date{
+  margin-left: 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border-style: groove;
+    border-width: 5px;
+    padding-top: 8px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 5px;
+ color: black;
+}
+.destination{
+    margin-left: 20px;
+    font-size: 18px;
+    background-color: transparent;
+    border-style: groove;
+    border-width: 5px;
+    padding-top: 8px;
+ padding-left: 5px;
+ padding-right: 5px;
+ padding-bottom: 5px;
+ width: 390px;
+ color: black;
+}
+.till1{
+        margin-left: 20px;
+          font-size: 18px;
+          background-color: transparent;
+          border-style: groove;
+          border-width: 5px;
+          padding-top: 8px;
+       padding-left: 5px;
+       padding-right: 5px;
+       padding-bottom: 5px;
+       color: black;
+}
+.till{
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: "Arial Black";
+    color: black;
+}
+.book{
+    margin-left: 500px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 70px;
+    padding-bottom: 30px;
+    background-color: chocolate;
+   color: white;
+   font-weight: 25px;
+   font-size: 12px;
+   border-style: double;
+   border-color: black;
+   border-width: 10px;
+}
+.book:hover{
+    background-color: transparent;
+    transition: 1s ease-in-out;
+    color: #000;
+}
